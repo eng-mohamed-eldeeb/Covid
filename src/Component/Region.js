@@ -32,11 +32,11 @@ const Region = () => {
         <h2 className="bg-[#35548B] py-[4px] px-4 text-white font-medium">
           Stats by region
         </h2>
-        <ul className="grid grid-cols-2 justify-items-end text-right bg-[#4972be]">
+        <ul className="justify-items-end text-right bg-[#4972be]">
           {region.regions !== undefined && region.regions.map((region) => (
             <li
               key={region.id}
-              className="country w-full grid p-4 text-white"
+              className="grid grid-cols-2 country w-full grid p-4 text-white"
               data-testid="regionListItem"
             >
               <i className="far fa-arrow-alt-circle-right fa-lg" />
