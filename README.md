@@ -1,6 +1,6 @@
 # Covid stats
 
-> #### A web application for a company whcih provides commercial and scientific space travel services. In this application users can book rockets and join the space missions useing live data from the spaceX API.
+> #### A web application for a covid statas.
 
 ## Built With
 
@@ -20,9 +20,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
-`git clone git@github.com:miftah1991/space-travelers.git `
+`git clone https://github.com/eng-mohamed-eldeeb/Covid.git `
 
-Then `cd space-travelers`
+Then `cd Covid`
 
 Then `npm install` to install packages
 
